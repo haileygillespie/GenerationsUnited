@@ -1,0 +1,43 @@
+$grey-color: #262626;
+
+.heading {
+	background-image: url("../public/redwavybg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	div {
+		width: 100%;
+		display: flex;
+		justify-content: baseline;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+}
+
+.headlogo {
+	width: 30vw;
+	height: auto;
+	filter: invert(1);
+	margin: 40px;
+}
+
+.grey_section {
+	background-color: $grey-color;
+	min-height: 300px; //temporary
+}
+
+.white_section {
+	min-height: 350px; //temporary
+}
+
+.footing {
+	background-image: url("../public/redwavybg.jpg");
+	min-height: 100px; //temporary
+}
+
+@media only screen and (max-width: 600px) {
+	.headlogo {
+		width: 80vw;
+	}
+}
