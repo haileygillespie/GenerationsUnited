@@ -1,0 +1,23 @@
+
+.navbar {
+	background-color: #262626;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	a {
+		transition: background-color .5s, color .5s, font-weight .25s;
+		padding: 3px;
+		text-decoration: none;
+		color: white;
+	}
+	a:hover {
+		color: #262626;
+		background-color: white;
+		font-weight: bold;
+	}
+}

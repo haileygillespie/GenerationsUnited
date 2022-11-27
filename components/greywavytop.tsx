@@ -5,6 +5,5 @@ export default function GreyWavyTop() {
 		<div className={styles.svg_container}>
 			<img src="topwave.svg" />
 		</div>
-
 	)
 }
