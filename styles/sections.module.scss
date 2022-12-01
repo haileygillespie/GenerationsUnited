@@ -1,0 +1,70 @@
+$grey-color: #262626;
+
+.grey_section {
+	background-color: $grey-color;
+	color: white;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 50px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.white_section {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 50px;
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	min-height: 350px;
+}
+
+.white_btn {
+	width: 200px;
+	transition: all .5s ease-in-out;
+	text-align: center;
+	padding: 15px;
+	border: solid 2px white;
+	font-weight: bold;
+	a {
+		transition: all .5s ease-in-out;
+		text-decoration: none;
+		color: white;
+	}
+}
+
+.white_btn:hover {
+	background-color: white;
+	a {
+		color: $grey-color;
+		background-color: transparent;
+	}
+}
+
+.black_btn {
+	width: 200px;
+	transition: all .5s ease-in-out;
+	text-align: center;
+	padding: 15px;
+	border: solid 2px $grey-color;
+	font-weight: bold;
+	a {
+		transition: all .5s ease-in-out;
+		text-decoration: none;
+		color: $grey-color;
+	}
+}
+
+.black_btn:hover {
+	background-color: $grey-color;
+	a {
+		color: white;
+		background-color: transparent;
+	}
+}
+
+.get_bigger:hover {
+	padding: 20px;
+}

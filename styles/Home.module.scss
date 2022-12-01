@@ -26,8 +26,7 @@ $grey-color: #262626;
 			font-weight: bold;
 		}
 	}
-	.btn {
-		transition: padding .5s;
+	.white_btn {
 		background-color: white;
 		a {
 			font-size: 1.2em;
@@ -43,46 +42,6 @@ $grey-color: #262626;
 	margin: 40px;
 }
 
-.grey_section {
-	background-color: $grey-color;
-	color: white;
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-bottom: 50px;
-	padding-top: 15px;
-	display: flex;
-	flex-direction: column;
-}
-
-.white_section {
-	min-height: 350px; //temporary
-}
-
-.btn {
-	width: 200px;
-	transition: background-color .5s ease-in-out;
-	text-align: center;
-	padding: 15px;
-	border: solid 2px white;
-	font-weight: bold;
-	a {
-		transition: all .5s ease-in-out;
-		text-decoration: none;
-		color: white;
-	}
-}
-
-.btn:hover {
-	background-color: white;
-	a {
-		color: $grey-color;
-		background-color: transparent;
-	}
-}
-
-.get_bigger:hover {
-	padding: 20px;
-}
 
 @media only screen and (max-width: 900px) {
 	.headlogo {

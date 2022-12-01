@@ -7,6 +7,7 @@ import GreyWavyBottom from '../components/greywavybottom'
 import Navbar from '../components/nav'
 
 import styles from '../styles/Home.module.scss'
+import sectionstyles from '../styles/sections.module.scss'
 
 import logo from '../public/logotransparent-whitebakingsoda.png'
 
@@ -20,6 +21,8 @@ export default function Home() {
 			<link rel="icon" href="/favicon.ico" />
 		</Head>
 
+		<Navbar />
+
 		<main>
 			<header className={styles.heading}>
 				<div className={styles.heading_container}>
@@ -30,22 +33,21 @@ export default function Home() {
 					/>
 					<div className={styles.blurb}>
 						<p><span>Because crack has affected black people almost exclusively, and especially black youth, it has been put on a back burner...</span></p>
-						<span className={[styles.btn, styles.get_bigger].join(" ")}><a href="/">Sign Now</a></span>
+						<span className={[sectionstyles.white_btn, sectionstyles.get_bigger].join(" ")}><a href="https://chng.it/HKLfzFGCzJ" target="_blank" >Sign Now</a></span>
 					</div>
 				</div>
 				<GreyWavyTop />
 			</header>
-			<section className={styles.grey_section}>
+			<section className={sectionstyles.grey_section}>
 				<h3>OUR MISSION</h3>
 				<p>The well-known epidemics of Crack and Fentanyl are rooted in Baking Soda. Placing restrictions on Baking Soda (sodium bicarbonate), which is essential to the production of both drugs, would alter them to a SIGNIFICANT degree to where it would curb the use and illegal manufacturing, saving countless lives.</p>
-				<span className={styles.btn}><a href="/">Learn More</a></span>
+				<span className={sectionstyles.white_btn}><a href="/">Learn More</a></span>
 			</section>
+			<GreyWavyBottom />
 
-			<section className={styles.white_section}>
-				<GreyWavyBottom />
+			<section className={sectionstyles.white_section}>
+				
 			</section>
-
-			<Navbar />
 		</main>
     </div>
   	)
