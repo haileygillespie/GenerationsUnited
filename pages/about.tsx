@@ -24,7 +24,7 @@ export default function About() {
 		<main>
 			<GreyWavyBottom />
 			<section className={sectionstyles.white_section}>
-				<h2>ABOUT US</h2>
+				<h2>ABOUT US..</h2>
 				<p>Generations United’s movement is a public fundraising event of generations uniting nationwide, in an effort to raise awareness to the crucial role that Baking Soda plays in the illegal manufacturing of the highly addictive and deadly drugs fentanyl and crack cocaine.</p>
 				<p>In addition, since Baking Soda is one of the main ingredients in both drugs, Generations United’s ultimate goal is to use strength in numbers to support a signed petition demanding Congress to pass an Act that would put restrictions on Baking Soda to curb the illegal manufacturing, use and sale of fentanyl and crack cocaine.</p>
 				<br />
@@ -38,9 +38,8 @@ export default function About() {
 				<p>Fentanyl and other opioids are the leading causes of the spike in overdose deaths in the U.S. over the past 2 decades.  Two milligrams of fentanyl, which is equivalent to a few grains, is considered a deadly dose.  A fentanyl overdose is often fatal.</p>
 				<p>Because crack has affected black people almost exclusively, and especially black youth, the scourge of crack has been put on a back burner.</p>
 				<br />
-				<span className={sectionstyles.black_btn}><a href="/">Learn More</a></span>
+				<span className={sectionstyles.black_btn}><a href="/learn">Learn More</a></span>
 			</section>
-
 		</main>
 		<GreyWavyTop />
     </div>

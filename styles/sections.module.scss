@@ -68,3 +68,10 @@ $grey-color: #262626;
 .get_bigger:hover {
 	padding: 20px;
 }
+
+@media only screen and (max-width: 900px) {
+	.white_section, .grey_section {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
