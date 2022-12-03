@@ -29,7 +29,7 @@ export default function Home() {
 						alt="generations united logo" 
 					/>
 					<div className={styles.blurb}>
-						<p><span>Because crack has affected black people almost exclusively, and especially black youth, it has been put on a back burner...</span></p>
+						<p><span>Over 150 people die every day from overdoses related to synthetic opiods such as fentanyl..</span></p>
 						<span className={[sectionstyles.white_btn, sectionstyles.get_bigger].join(" ")}><a href="https://chng.it/HKLfzFGCzJ" target="_blank" >Sign Now</a></span>
 					</div>
 				</div>
